@@ -69,5 +69,37 @@ La qualité du site et du contenu (métier / code) ont également un impact sur 
 
 La qualité, la pertinence et la position des liens influencent également le SEO.
 
+### Il y a trois endroits où vous devez placer vos mots-clés pour optimiser le référencement de votre page web :
 
+1. **Dans l'en-tête de la page (head)** : Cette partie est invisible pour l'utilisateur, mais elle est lue par les moteurs de recherche et le navigateur. Elle contient des informations sur la page, telles que le titre, la description, les mots-clés, etc.
+
+2. **Dans le corps de la page (body)** : C'est la partie visible de la page, où vous placez le contenu. Il est important d'inclure des mots-clés de manière naturelle et pertinente ici.
+
+3. **Dans l'URL des pages** : Les mots-clés présents dans l'URL sont très importants pour le référencement, car ils aident les moteurs de recherche à mieux comprendre le contenu de la page.
+
+**OneBOX** : Cela affiche, par exemple, les résultats récents de compétitions sportives de différents sports.
+ 
+### La balise TITLE
+
+Le contenu de la balise **title** s'affiche dans les **SERPs** et sur l'onglet de la page concernée. Le titre doit à la fois contenir des mots-clés et informer l'utilisateur sur le contenu de la page.
+
+#### Conseils de rédaction :
+- **Clareté et précision**
+- **50-60 caractères**
+- Trouvez une expression qui inclut le plus de mots-clés possible
+- Personnalisez le titre de chaque page
+- Essayez de placer les mots-clés en début de phrase (pour la balise **title**, le nombre de caractères reconnus peut varier d'un moteur de recherche à un autre)
+- Éviter impérativement les mots redondants, ou trop de generiques
+
+### La balise meta
+
+La balise **meta** est une balise HTML qui permet de définir les métadonnées qui ne sont pas affichées à l'écran. Il y a encore trop peu de pages qui ne contiennent pas de balise **meta**. 
+
+L'évolution récente des moteurs de recherche a rendu ces balises moins importantes pour le référencement, mais elles restent utiles pour d'autres raisons. 
+
+Faites-les figurer sur toutes vos pages.
+
+### La balise meta description
+
+La balise **meta description** est un résumé de la page qui s'affiche dans les **SERPs**. Elle doit être claire, concise et informative. Elle doit contenir des mots-clés et inciter l'utilisateur à cliquer sur le lien.
 
