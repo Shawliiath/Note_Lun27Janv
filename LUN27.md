@@ -38,3 +38,36 @@ L’algorithme de Google repose sur :
 - **Backlink** : Un backlink est un lien qui pointe vers votre site web depuis un autre site web ou depuis une page interne de votre propre site web. Cela a un impact sur la popularité de votre site web et donc sur son référencement.
 
 - **Netlinking** : _strategie qui consiste à obtenir des baclinks de qualité pour ameliorer le referencement de votre site web_
+
+
+### 3.1 Fonctionnement des outils de recherche - Le référencement SEO
+
+Le SEO peut varier selon le langage. Google est insensible aux accents, ce qui signifie que les accents n'affectent pas les résultats des recherches.
+
+On peut paramétrer ses recherches avec des caractères spéciaux, comme les guillemets qui permettent de rechercher une **expression exacte**, chercher un format de fichier précis, des liens, etc.
+
+#### Ce qui influe :
+- **Champs de recherche**
+- **Titre**
+- **URL** : façon dont elles sont liées
+- **Description**
+- **Type de document et son extension** : le format (PDF, DOC, etc.)
+
+Google devient un moteur de réponse, c'est-à-dire qu'il tente de deviner l'intention exacte de l'utilisateur par plusieurs moyens, tels que :
+
+- Les tendances actuelles
+- L'IA
+- ...
+
+**Keyword** : mots-clés ou expressions utilisés par l'internaute pour trouver des informations parmi une multitude de pages web.
+
+Comment Google collecte-t-il des informations sur les sites web ? Il utilise des robots appelés **spiders**, qui vont visiter chacune des pages web présentes sur la toile.
+
+Les temps de chargement des pages doivent être réduits au maximum, car ils ont un impact sur l'ergonomie et l'expérience utilisateur.
+
+La qualité du site et du contenu (métier / code) ont également un impact sur la stratégie SEO.
+
+La qualité, la pertinence et la position des liens influencent également le SEO.
+
+
+
