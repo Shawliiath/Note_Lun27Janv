@@ -105,16 +105,78 @@ La balise **meta description** est un résumé de la page qui s'affiche dans les
 
 ### La balise meta-robots
 
-### La balise meta-robots
-
 La balise **meta-robots** indique aux robots des moteurs de recherche comment ils doivent se comporter avec la page : l'indexer ou non, suivre les liens ou non, etc.
 
 ```html
 <meta name="robots" content="noindex, nofollow">
+```
+### La balise meta-robots
 
-vous pouvez specifier d'autre instructions:
+La balise **meta-robots** indique aux robots des moteurs de recherche comment ils doivent se comporter avec la page : l'indexer ou non, suivre les liens ou non, etc.
 
-nonspiet: affiche def
-noarchive: affiche def
-unavaible_after : affiche def
+#### Autres instructions possibles :
+
+- **nosnippet** : Empêche l’affichage d’un extrait (snippet) de texte sous le lien de la page dans les résultats de recherche.  
+- **noarchive** : Empêche le stockage d’une copie en cache de la page dans les moteurs de recherche.  
+- **unavailable_after** : Indique une date après laquelle la page ne sera plus disponible pour les moteurs de recherche.
+
+## Optimisation SEO : Balises, Contenu et Bonnes Pratiques
+
+### Balises TITLE et META
+
+Les balises **title** et **meta** jouent un rôle clé dans le référencement, mais elles ne suffisent pas à elles seules. Il est crucial d’adopter un contenu bien structuré et optimisé.  
+Bien que les **balises meta** aient perdu de leur importance pour le positionnement, elles restent essentielles pour inclure des mots-clés et améliorer l’affichage des pages dans les résultats de recherche.
+
+### Structuration et Contenu
+
+- Remplacez les `<div>` par des balises sémantiques adaptées si possible.
+- Intégrez les **mots-clés** dans le contenu visible des pages.
+- Évitez la **suroptimisation** des mots-clés : une répétition excessive peut entraîner une pénalisation ou un blacklistage (sandboxing).
+- Optimisez un site autour de **trois mots-clés principaux maximum**, sans forcément inclure la localisation.
+- Organisez le contenu autour d’un **mot-clé principal** et variez les formes grammaticales associées.
+
+### Liens et Navigation
+
+- Composez des **liens explicites** et évitez les expressions vagues comme *"Cliquez ici pour en savoir plus"*.  
+- Assurez-vous que tous les liens sont **accessibles via l’architecture interne** du site.
+- Intégrez un **fil d’Ariane (breadcrumb)** pour améliorer la navigation et y inclure des mots-clés pertinents.
+
+### Bonnes Pratiques de Hiérarchisation
+
+- Chaque page doit comporter un **H1 unique**.
+- Respectez l’ordre des titres (**H1 → H2 → H3…**). Évitez d’utiliser un H5 si les niveaux précédents ne sont pas présents.
+- La structure de la page doit être claire et logique pour les moteurs de recherche et les utilisateurs.
+
+### Rédaction et Intelligence Artificielle
+
+- L’IA peut être utilisée pour analyser les tendances, identifier les mots-clés pertinents et structurer le contenu.
+- Rédigez des articles optimisés en utilisant ces analyses pour améliorer le référencement.
+
+### Optimisation des Images
+
+- **Nommage des fichiers** : privilégiez des noms descriptifs avec des **tirets** plutôt que le CamelCase.  
+- **Formats recommandés** : JPG, GIF, PNG, et éventuellement **WEBP** pour un meilleur compromis qualité/poids.
+- **Texte alternatif** (`alt=""`) : indispensable pour l’accessibilité et le SEO.
+- **Attribut title** : ajoutez une courte description pour chaque image.
+- **Qualité** : utilisez des images uniques ou peu répandues pour améliorer la crédibilité du site.
+
+### Optimisation des Vidéos
+
+- Optimisez les **métadonnées** et la **bande-son** des vidéos.
+- Chaque vidéo doit être de **bonne qualité** et avoir une **URL unique**.
+- Utiliser une vidéo YouTube bien référencée peut améliorer la visibilité du site dans les résultats de recherche.
+
+### Rubrique Actualités
+
+- Pour apparaître dans **Google Actualités**, créez une section dédiée (*blog, news, actualités*).
+- Assurez une **mise à jour régulière** des contenus.
+- L’exclusion de Google Actualités est possible mais contre-productive pour le référencement.
+
+### Optimisation des Documents
+
+- **Format privilégié** : le **PDF**, car il est léger et bien indexé par les moteurs de recherche.
+- **Soignez le contenu, le titre et l’URL**.
+- Évitez les documents trop lourds pour ne pas ralentir le site.
+
+En appliquant ces bonnes pratiques, vous optimiserez la visibilité et le référencement de votre site tout en améliorant l’expérience utilisateur.
 
