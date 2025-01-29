@@ -103,3 +103,18 @@ Faites-les figurer sur toutes vos pages.
 
 La balise **meta description** est un résumé de la page qui s'affiche dans les **SERPs**. Elle doit être claire, concise et informative. Elle doit contenir des mots-clés et inciter l'utilisateur à cliquer sur le lien.
 
+### La balise meta-robots
+
+### La balise meta-robots
+
+La balise **meta-robots** indique aux robots des moteurs de recherche comment ils doivent se comporter avec la page : l'indexer ou non, suivre les liens ou non, etc.
+
+```html
+<meta name="robots" content="noindex, nofollow">
+
+vous pouvez specifier d'autre instructions:
+
+nonspiet: affiche def
+noarchive: affiche def
+unavaible_after : affiche def
+
