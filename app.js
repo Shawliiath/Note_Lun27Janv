@@ -68,3 +68,38 @@ window.addEventListener('resize', () => {
     camera.aspect = window.innerWidth / window.innerHeight;
     camera.updateProjectionMatrix();
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+    const links = document.querySelectorAll("nav a");
+    const sections = document.querySelectorAll(".content");
+
+    // Affiche toutes les sections par défaut (au début sur Accueil)
+    sections.forEach(section => {
+        section.style.display = "block";
+    });
+
+    links.forEach(link => {
+        link.addEventListener("click", (event) => {
+            event.preventDefault(); // Empêche le rechargement de la page
+            const targetId = link.getAttribute("href").substring(1); // Récupère l'ID cible
+
+            // Si "Accueil" est cliqué, montre toutes les sections
+            if (targetId === "accueil") {
+                sections.forEach(section => {
+                    section.style.display = "block";
+                    
+                });
+            } else {
+                // Sinon, on cache toutes les sections et affiche celle qui est cliquée
+                sections.forEach(section => {
+                    section.style.display = "none";
+                });
+                document.getElementById(targetId).style.display = "block";
+                window.scrollTo({
+                    top: document.body.scrollHeight,
+                    behavior: 'smooth'
+                });
+            }
+        });
+    });
+});

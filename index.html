@@ -38,20 +38,19 @@
 
     <nav>
         <ul>
-            <li><a href="#" title="Accueil" aria-label="Accueil">Accueil</a></li>
-            <li><a href="#" title="À propos" aria-label="À propos">À propos</a></li>
-            <li><a href="#" title="Nos services" aria-label="Nos services">Services</a></li>
-            <li><a href="#" title="Contactez-nous" aria-label="Contactez-nous">Contact</a></li>
+            <li><a href="#accueil" title="Accueil" aria-label="Accueil">Accueil</a></li>
+            <li><a href="#services" title="Nos services" aria-label="Nos services">Services</a></li>
+            <li><a href="#contact" title="Contactez-nous" aria-label="Contactez-nous">Contact</a></li>
         </ul>
     </nav>
 
-    <main itemscope itemtype="https://schema.org/WebPage">
-        <section itemprop="mainContentOfPage">
+    <main>
+        <section id="accueil" class="content">
             <h2 class="important-title">Importance du SEO</h2>
-            <p itemprop="description">Le SEO permet d'améliorer le positionnement de votre site web sur les moteurs de recherche.</p>
+            <p>Le SEO permet d'améliorer le positionnement de votre site web sur les moteurs de recherche.</p>
         </section>
-
-        <section>
+    
+        <section id="services" class="content" style="display: none;">
             <h2 class="important-title">Techniques Clés</h2>
             <ul>
                 <li>Utilisation de mots-clés dans les titres et les descriptions.</li>
@@ -60,8 +59,8 @@
                 <li>Utilisation des balises META pour décrire le contenu.</li>
             </ul>
         </section>
-
-        <section>
+    
+        <section id="contact" class="content" style="display: none;">
             <h2 class="important-title">Contact</h2>
             <form id="contact-form" method="post" action="contact.php">
                 <label for="name">Nom :</label>
